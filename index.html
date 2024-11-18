@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Digital para Todos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>Segurança Digital para Todos</h1>
+        <p>Proteja seus dados e navegue com segurança!</p>
+        <a href="#dicas" class="btn">Descubra Mais</a>
+    </header>
+
+    <main>
+        <section id="dicas" class="secao">
+            <h2>Dicas Detalhadas de Segurança Digital</h2>
+            <div class="dicas-container">
+                <div class="card">
+                    <h3>Crie Senhas Fortes</h3>
+                    <p>Descubra como proteger suas contas com senhas seguras.</p>
+                    <a href="#senha-forte" class="btn-small">Saber Mais</a>
+                </div>
+                <div class="card">
+                    <h3>Evite Golpes de Phishing</h3>
+                    <p>Aprenda a identificar e evitar golpes digitais comuns. no dia dia a dia</p>
+                    <a href="#phishing" class="btn-small">Saber Mais</a>
+                </div>
+                <div class="card">
+                    <h3>Atualize Seus Softwares</h3>
+                    <p>Veja como manter seus dispositivos protegidos com atualizações.</p>
+                    <a href="#atualizacoes" class="btn-small">Saber Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="senha-forte" class="secao">
+            <h2>Crie Senhas Fortes</h2>
+            <p>
+                Uma senha forte é a primeira linha de defesa contra hackers.  
+                Evite usar palavras óbvias, como seu nome ou datas de aniversário.  
+                Prefira combinações de letras maiúsculas e minúsculas, números e caracteres especiais.
+            </p>
+            <p>Exemplo de senha forte: <strong>S3nh@_F0rt3!</strong>.</p>
+            <ul>
+                <li>Use senhas diferentes para cada conta importante.</li>
+                <li>Troque suas senhas regularmente.</li>
+                <li>Considere usar um gerenciador de senhas confiável.</li>
+            </ul>
+        </section>
+
+        <section id="phishing" class="secao">
+            <h2>Evite Golpes de Phishing</h2>
+            <p>
+                Golpes de phishing são mensagens fraudulentas que imitam empresas confiáveis  
+                para roubar suas informações pessoais, como senhas e números de cartão.  
+                Fique atento a e-mails ou mensagens com links suspeitos.
+            </p>
+            <ul>
+                <li>Não clique em links de remetentes desconhecidos.</li>
+                <li>Desconfie de mensagens com erros de ortografia ou senso de urgência.</li>
+                <li>Verifique o endereço do site antes de inserir informações sensíveis.</li>
+            </ul>
+            <p><strong>Dica:</strong> Se suspeitar de um golpe, entre em contato diretamente com a empresa mencionada.</p>
+        </section>
+
+        <section id="atualizacoes" class="secao">
+            <h2>Atualize Seus Softwares</h2>
+            <p>
+                Manter seus dispositivos atualizados é essencial para evitar ataques de hackers.  
+                Atualizações corrigem vulnerabilidades de segurança que podem ser exploradas.
+            </p>
+            <ul>
+                <li>Ative atualizações automáticas para seu sistema operacional.</li>
+                <li>Verifique regularmente por atualizações de aplicativos e antivírus.</li>
+                <li>Evite usar softwares ou sistemas operacionais desatualizados.</li>
+            </ul>
+            <p><strong>Dica:</strong> Não ignore notificações de atualização! Elas são projetadas para sua segurança.</p>
+        </section>
+
+        <section id="teste" class="secao">
+            <h2>Teste Sua Segurança</h2>
+            <p>Digite uma senha para verificar sua força:</p>
+            <input type="text" id="senha" placeholder="Digite sua senha">
+            <button onclick="verificarSenha()">Verificar</button>
+            <p id="resultado"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Segurança Digital para Todos | Fernando Silva de Jesus<a href="#topo">Voltar ao topo</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

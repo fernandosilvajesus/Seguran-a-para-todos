@@ -1,0 +1,235 @@
+/* Configuração geral */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evitar rolagem horizontal */
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+
+/* Seções ocupando 100vw e 100vh */
+.secao {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.secao li {
+    list-style-type: none;
+}
+
+/* Estilos específicos para cada seção */
+#dicas {
+    background: #f9f9f9;
+    color: #333;
+}
+
+#senha-forte {
+    background: #4CAF50;
+    color: white;
+}
+
+#phishing {
+    background: #FFD700;
+    color: black;
+}
+
+#atualizacoes {
+    background: #1E90FF;
+    color: white;
+}
+
+#teste {
+    background: #FF4500;
+    color: white;
+}
+
+#contato {
+    background: #333;
+    color: white;
+}
+
+/* Botões */
+.btn, .btn-small {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover, .btn-small:hover {
+    background: #45a049;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .secao {
+        padding: 10px;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #4c6baf, #2E8B57);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 20px;
+}
+
+header .btn {
+    display: inline-block;
+    background: #fff;
+    color: #252525;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+header .btn:hover {
+    background: #f0f0f0;
+}
+
+/* Section */
+.secao {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#dicas {
+    background: #f9f9f9;
+}
+
+.dicas-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    min-width: 250px;
+    width: 100%;
+    height: 190px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease;
+}
+
+.card h3 {
+    color: #303030;
+    margin-bottom: 10px;
+}
+
+
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Botão pequeno */
+.btn-small {
+    display: inline-block;
+    background: #222222;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+
+
+.btn-small:hover {
+    background: #f5f5f5;
+    color: #222222;
+}
+
+
+
+#teste button{
+    margin-top: 2rem;
+}
